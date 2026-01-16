@@ -1,0 +1,13 @@
+Neuromusix is ​​a program with a user-friendly GUI that generates music based on the user's preferences and adapts to them, plays the melody on various instruments to create an orchestral piece, and displays the notes being played in real time on a piano keyboard.
+
+Instructions
+1. Click 'Generate' to create a melody according to your music profile. Click 'Random' to create a random melody not according to mood or your profile.
+2. Use the switches to add bass and drums and change the instruments.
+3. Like or dislike to change your music profile.
+4. Change the mood if you don't want the song according to your music profile.
+5. The 'Export' button allows you to save the file.*
+6. The 'Reset Profile' button resets the profile to a neutral 0.5 in every direction.
+
+*To export as WAV, Fluidsynth must be installed on a computer. To export as XML, MuseScore 4 must be installed on a computer.
+
+Attribution: Sounfont GeneralUser GS 1.471 by Schristian Collinss - https://schristiancollins.com/generaluser.php

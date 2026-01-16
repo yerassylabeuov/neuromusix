@@ -1,0 +1,5 @@
+pygame
+music21
+matplotlib
+numpy
+Pillow
