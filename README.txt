@@ -12,7 +12,8 @@ The attribution to the soundfont is in the manual.
         python3 -m pip install -r requirements.txt
 
 IMPORTANT NOTE!!! https://drive.google.com/file/d/1-CtSEzzo5ECzvRppC5jtlmoorHVKjlpA/view?usp=sharing
-Sorry. You have to download the file from the link above and add it to the folder of the code if you want the program to export in WAV properly. The file is too big for GitHub. It adds synthesizer for WAV. Also, you need to install Fluidsynth for audio export.
+Sorry. You have to download the file from the link above and add it to the folder of the code if you want the program to export in WAV properly. The file is too big for GitHub. It adds synthesizer for WAV. 
+Also, you need to install Fluidsynth for audio export.
 
 To install Fluidsynth for exporting in WAV, you may use this:
 -   MacOS: brew install fluidsynth
