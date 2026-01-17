@@ -15,12 +15,14 @@ IMPORTANT NOTE!!! https://drive.google.com/file/d/1-CtSEzzo5ECzvRppC5jtlmoorHVKj
 Sorry. You have to download the file from the link above and add it to the folder of the code if you want the program to export in WAV properly. The file is too big for GitHub. It adds synthesizer for WAV. 
 Also, you need to install Fluidsynth for audio export.
 
+To export as WAV, FluidSynth must be installed on a computer. 
 To install Fluidsynth for exporting in WAV, you may use this:
 -   MacOS: brew install fluidsynth
 -   Windows: installing FluidSynth from their website and adding to the path of the program
 -   Linux: sudo apt install fluidsynth
 
-To export as WAV, FluidSynth must be installed on a computer. 
 To export as XML, MuseScore 4 must be installed on a computer.
+For macOS, the program finds it in the "Applications" folder.
+For Windows, the programs finds it in the path ""C:/Program Files/MuseScore 4/bin/MuseScore4.exe"
 
 Attribution: Sounfont GeneralUser GS 1.471 by Schristian Collinss - https://schristiancollins.com/generaluser.php
