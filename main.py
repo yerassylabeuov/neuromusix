@@ -20,8 +20,33 @@ from PIL import Image, ImageTk
 SOUNDFONT_PATH = "soundfont.sf2" 
 
 us = environment.UserSettings()
-us['musicxmlPath'] = '/Applications/MuseScore 4.app/Contents/MacOS/mscore'
-us['musescoreDirectPNGPath'] = '/Applications/MuseScore 4.app/Contents/MacOS/mscore'
+
+#finding musescore for the program for windows and mac
+def find_musescore_path(): 
+    system = platform.system()
+    possible_paths = []
+    if system == "Darwin":  
+        possible_paths = [
+            "/Applications/MuseScore 4.app/Contents/MacOS/mscore",
+            "/Applications/MuseScore.app/Contents/MacOS/mscore"]
+    elif system == "Windows":
+        possible_paths = [
+            "C:/Program Files/MuseScore 4/bin/MuseScore4.exe",
+            "C:/Program Files (x86)/MuseScore 4/bin/MuseScore4.exe" ]
+    for path in possible_paths:
+        if os.path.exists(path):
+            return path
+    ms = which("MuseScore4") or which("mscore") or which("MuseScore")
+    if ms:
+        return ms
+
+    return None
+musescore_path = find_musescore_path()
+if musescore_path:
+    us['musicxmlPath'] = musescore_path
+    us['musescoreDirectPNGPath'] = musescore_path
+else:
+    print("MuseScore not found. MusicXML export will be disabled.")
 
 INSTRUMENTS = {
     "Piano": instrument.Piano,
