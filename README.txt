@@ -18,7 +18,7 @@ Also, you need to install Fluidsynth for audio export.
 To export as WAV, FluidSynth must be installed on a computer. 
 To install Fluidsynth for exporting in WAV, you may use this:
 -   MacOS: brew install fluidsynth
--   Windows: installing FluidSynth from their website (https://www.fluidsynth.org/download/) and ADDING to the PATH of the program
+-   Windows: installing FluidSynth from their website (https://www.fluidsynth.org/download/) and ADDING TO THE PATH OF THE CODE
 -   Linux: sudo apt install fluidsynth
 
 To export as XML (musical notation), MuseScore 4 must be installed on a computer (You can download it there: https://musescore.org/en/download).
