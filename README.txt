@@ -5,7 +5,8 @@ Neuromusix is an AI-based music generation application (written in Python) that 
 The manual is in the manual.txt file that can be accessed through the application.
 The attribution to the soundfont is in the manual.
 
-
+The stable version for Python is 3.12.9
+Create a venv in the folder to install libraries.
   To run the program, install these libraries (in venv) by inserting this in a command line of a Python interpretator:
         pip install -r requirements.txt
   for macOS, you may need:
