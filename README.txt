@@ -6,7 +6,7 @@ The manual is in the manual.txt file that can be accessed through the applicatio
 The attribution to the soundfont is in the manual.
 
 The stable version for Python is 3.12.9
-Create a venv in the folder to install libraries. 
+Create a venv (virtual environment) in the folder to install libraries. 
   To run the program, install these libraries (in venv) by inserting this in a command line of a Python interpretator:
         pip install -r requirements.txt
   for macOS, you may need:
@@ -19,7 +19,7 @@ Also, you need to install Fluidsynth for audio export.
 To export as WAV, FluidSynth must be installed on a computer. 
 To install Fluidsynth for exporting in WAV, you may use this:
 -   MacOS: brew install fluidsynth (in python command line)
--   Windows: installing FluidSynth from their website (https://www.fluidsynth.org/download/) and ADDING TO THE PATH OF THE CODE
+-   Windows: installing FluidSynth from their website (https://www.fluidsynth.org/download/) and ADDING TO THE VENV OF THE CODE
 -   Linux: sudo apt install fluidsynth (in python command line)
 
 To export as XML (musical notation), MuseScore 4 must be installed on a computer (You can download it there: https://musescore.org/en/download).
