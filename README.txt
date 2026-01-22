@@ -5,12 +5,14 @@ Neuromusix is an AI-based music generation application (written in Python) that 
 The manual is in the manual.txt file that can be accessed through the application.
 The attribution to the soundfont is in the manual.
 
-- Python 3.10 or 3.11 is recommended (3.10.13 / 3.11.x)
-Create a venv (virtual environment) in the folder to install libraries. 
-  To run the program, install these libraries (in venv) by inserting this in a command line of a Python interpretator:
+- Python3.11.x is mandatory (MAKE SURE THAT YOU INSTALL EVERYTHING, EVEN VENT AND REQUIREMENTS, IN PYTHON3.11. FOR MACOS, YOU SHOULD USE "python3.11" for commands in terminal.
+Create a venv (virtual environment) in the folder of code to install libraries. 
+  Install these libraries (in venv) by inserting this in a command line of a Python interpretator:
         pip install -r requirements.txt
   for macOS, you may need:
         python3 -m pip install -r requirements.txt
+
+Run the code.
 
 IMPORTANT NOTE!!! https://drive.google.com/file/d/1-CtSEzzo5ECzvRppC5jtlmoorHVKjlpA/view?usp=sharing
 Sorry. You have to download the file from the link above and ADD IT TO THE FOLDER OF THE CODE if you want the program to export in WAV properly. The file is too big for GitHub. It adds synthesizer for WAV. 
