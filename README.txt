@@ -29,3 +29,6 @@ For macOS, the program finds it in the "Applications" folder.
 For Windows, the programs finds it in the path ""C:/Program Files/MuseScore 4/bin/MuseScore4.exe"
 
 Attribution: Sounfont GeneralUser GS 1.471 by Schristian Collinss - https://schristiancollins.com/generaluser.php
+
+
+THIS PROGRRAM NOW HAS COPYRIGHT BY KAZAKHSTAN'S LAW.
